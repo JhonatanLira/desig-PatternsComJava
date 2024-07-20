@@ -1,4 +1,4 @@
-package dio.gof.singleton;
+package dio.gof.criacao.singleton;
 
 /**
  * Singleton preguiçoso

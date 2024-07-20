@@ -1,6 +1,7 @@
-import dio.gof.singleton.SingletonEager;
-import dio.gof.singleton.SingletonLazy;
-import dio.gof.singleton.SingletonLazyHolder;
+import dio.gof.criacao.singleton.SingletonEager;
+import dio.gof.criacao.singleton.SingletonLazy;
+import dio.gof.criacao.singleton.SingletonLazyHolder;
+import dio.gof.comportamental.strategy.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -22,7 +23,7 @@ public class Main {
         System.out.println(lazyHolder);
         lazyHolder = SingletonLazyHolder.getInstancia();
         System.out.println(lazyHolder);
-/*
+
         // Strategy
 
         Comportamento defensivo = new ComportamentoDefensivo();
@@ -39,7 +40,7 @@ public class Main {
         robo.mover();
         robo.mover();
         robo.mover();
-
+/*
         // Facade
 
         Facade facade = new Facade();
