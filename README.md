@@ -7,7 +7,7 @@
 ## Strategy
 <img src="img/Strategy.png" width = 400/>
 
-## Spring Framework
-<img src="img/Spring.png" width = 400/>
+## Factory Method
+<img src="img/Factory_Method.png" width = 400/>
 
 
